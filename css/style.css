@@ -43,7 +43,7 @@ h1 {
   margin: 0px auto;
   padding: 0px 15px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 95%;
 }
 
 header {
@@ -57,7 +57,7 @@ header .wrapper {
   align-items: center;
 }
 header .wrapper .logo {
-  margin: 20px 0px 4px 30px;
+  margin: 20px 0px 4px;
 }
 header .wrapper .logo img {
   width: 100%;
@@ -393,12 +393,12 @@ footer .links ul li a:hover {
 
 @media screen and (max-width: 1200px) {
   .container {
-    max-width: 1000px;
+    max-width: 95%;
   }
 }
 @media screen and (max-width: 999px) {
   .container {
-    max-width: 792px;
+    max-width: 95%;
   }
 
   header .wrapper nav {
@@ -472,7 +472,7 @@ footer .links ul li a:hover {
 }
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 568px;
+    max-width: 95%;
   }
 
   .section3 .items .item {
@@ -493,7 +493,7 @@ footer .links ul li a:hover {
 }
 @media screen and (max-width: 576px) {
   .container {
-    max-width: 376px;
+    max-width: 95%;
   }
 
   header nav ul {

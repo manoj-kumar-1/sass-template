@@ -1,6 +1,6 @@
 .container{
     @include container;
-    max-width: 1200px;
+    max-width: 95%;
 }
 header {
     background: $primary;
@@ -11,7 +11,7 @@ header {
         justify-content: space-between;
         align-items: center;
         .logo {
-            margin: 20px 0px 4px 30px;
+            margin: 20px 0px 4px;
             img {
                 width: 100%;
                 max-width: 100px;
