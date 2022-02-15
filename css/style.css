@@ -98,17 +98,18 @@ header nav .signup a:nth-child(2) {
   font-weight: bold;
   border-radius: 10px;
 }
-header nav button {
+header button {
   display: none;
+  cursor: pointer;
 }
-header nav button i {
+header button i {
   font-size: 25px;
   padding: 5px 15px;
   background: #fff;
   border-radius: 3px;
   color: #9900ffe8;
 }
-header nav button i:hover {
+header button i:hover {
   color: #2fff949e;
 }
 
@@ -388,9 +389,29 @@ footer .links ul li a:hover {
     max-width: 792px;
   }
 
-  header {
+  header nav {
     flex-direction: column;
-    padding-bottom: 20px;
+    background: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 999;
+    width: 280px;
+    text-align: center;
+    height: 100%;
+    padding: 30px 0 0;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav .signup {
+    flex-direction: column;
+  }
+  header .nav {
+    display: none;
+  }
+  header button {
+    display: block;
   }
 
   .section2 .items {
@@ -425,13 +446,6 @@ footer .links ul li a:hover {
 @media screen and (max-width: 768px) {
   .container {
     max-width: 568px;
-  }
-
-  header {
-    flex-direction: column;
-  }
-  header nav {
-    flex-direction: column;
   }
 
   .section3 .items .item {

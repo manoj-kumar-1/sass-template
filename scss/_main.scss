@@ -53,17 +53,18 @@ header {
                 }
             }
         }
-        button{
-            display: none;
-            i {
-                font-size: 25px;
-                padding: 5px 15px;
-                background: $white;
-                border-radius: 3px;
-                color: $secondary;
-                &:hover{
-                    color: $primary;
-                }
+    }
+    button{
+        display: none;
+        cursor: pointer;
+        i {
+            font-size: 25px;
+            padding: 5px 15px;
+            background: $white;
+            border-radius: 3px;
+            color: $secondary;
+            &:hover{
+                color: $primary;
             }
         }
     }
