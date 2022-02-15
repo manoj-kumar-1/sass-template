@@ -3,30 +3,46 @@
         max-width: 792px;
     }
     header {
-        nav {
-            flex-direction: column;
-            background: aliceblue;
-            position: absolute;
-            left: 0;
-            top: 0px;
-            z-index: 999;
-            width: 280px;
-            text-align: center;
-            height: 100%;
-            padding: 30px 0 0;
-
-            ul {
+        .wrapper{
+            nav {
                 flex-direction: column;
+                background: aliceblue;
+                position: absolute;
+                left: 0;
+                top: 0px;
+                z-index: 999;
+                overflow-x: hidden;
+                width: 0px;
+                text-align: center;
+                height: 100%;
+                padding: 40px 0 0;
+                transition: width 1s;
+                margin-left: -60px;
+                ul {
+                    flex-direction: column;
+                }
+                .signup {
+                    flex-direction: column;
+                }
+                #close {
+                    position: absolute;
+                    right: 20px;
+                    top: 40px;
+                    cursor: pointer;
+                    padding: 8px 11px;
+                    border-radius: 50%;
+                    background: $primary;
+                    color: $white;
+                    &:hover{
+                        background: $white;
+                        color: $primary;
+                        border: 1px solid $primary;
+                    }
+                }
             }
-            .signup {
-                flex-direction: column;
+            button {
+                display: block;
             }
-        }
-        .nav{
-            display: none;
-        }
-        button {
-            display: block;
         }
     }
     .section2{

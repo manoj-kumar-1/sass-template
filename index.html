@@ -8,28 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <title>Assignment2</title>
 </head>
-<body>
-<section class="section1">    
-    <header class="container">
-        <div class="logo">
-            <img src="images/logo.png" alt="logo" width="100px" height="100px">
-        </div>
-        <nav id="nav" class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Templates</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-            <div class="signup">
-                <a href="#">Sign In</a>
-                <a href="#">Register</a>
+<body>    
+<header>
+    <div class="container">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
             </div>
-        </nav>
-        <button onclick="navMenu()" > <i class="fa-solid fa-bars"></i></button>
-    </header>
-</section>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Templates</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <div class="signup">
+                    <a href="#">Sign In</a>
+                    <a href="#">Register</a>
+                </div>
+                <button onclick="closeBtn()" id="close">X</button>
+            </nav>
+            <button id="hamburger" onclick="openBtn()" > <i class="fa-solid fa-bars"></i></button>
+        </div>
+    </div>    
+</header>
 <div class="section2">
     <div class="container">
         <div class="items">
