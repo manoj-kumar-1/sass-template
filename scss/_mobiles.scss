@@ -1,0 +1,24 @@
+@media screen and (max-width: $sm) {
+    .container{
+        max-width: 376px;
+    }
+    header{
+        nav{
+            ul {
+                justify-content: center;
+            }
+        }
+    }
+    .section3 .items .item {
+        width: 100%;
+    }
+    .section7 .items .item ul {
+        flex-direction: column;
+        li {
+            margin: 10px 0px;
+        }
+    }
+    footer .links ul {
+        width: 50%;
+    }
+}

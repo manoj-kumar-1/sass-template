@@ -1,0 +1,39 @@
+@media screen and (max-width: $lg) {
+    .container{
+        max-width: 792px;
+    }
+    header {
+        flex-direction: column;
+        padding-bottom: 20px;
+        
+    }
+    .section2{
+        .items{
+            padding-top: 36px;
+            .item {
+                width: 100%;
+              }
+        }
+        .top-wave{
+            margin-top: -125px;
+        }
+    } 
+    .section3{
+        .content {
+            width: 100%;
+        }
+        .items .item {
+            width: 30%;
+          }
+    }
+    .section6 .left .item .paragraphs p {
+        width: 100%;
+    }
+    .section7 .items {
+        justify-content: center;
+        text-align: center;
+        .item {
+            padding: 10px 0px;
+        }
+    }
+}
